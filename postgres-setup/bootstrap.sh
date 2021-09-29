@@ -38,7 +38,7 @@ PG_DIR="/var/lib/postgresql/$PG_VERSION/main"
 # Edit postgresql.conf to change listen address to '*':
 sed -i "s/#listen_addresses = 'localhost'/listen_addresses = '*'/" "$PG_CONF"
 
-# Append to pg_hba.conf to add password auth:
+# Append to pg_hba.conf to add no password auth:
 echo "host    all             all             0.0.0.0/0                     trust" >> "$PG_HBA"
 
 # Explicitly set default client_encoding
