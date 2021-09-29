@@ -18,6 +18,9 @@ Then, run the following to create a new PostgreSQL app dev virtual machine:
 	
 	# Destroy the virtual machine:
 	$ vagrant destroy
+	
+	#Export vagrant box
+	$ vagrant package --vagrantfile Vagrantfile
 
 ### What does it do?
 
