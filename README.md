@@ -32,8 +32,8 @@ Once it has started up it will print out how to access the database on the virtu
     $ vagrant up
     Bringing machine 'default' up with 'virtualbox' provider...
 
-    Your PostgreSQL database has been setup and can be accessed on your local machine on the forwarded port (default: 5432)
-      Host: localhost
+    Your PostgreSQL has been setup and can be accessed on your local machine
+	  Host: localhost or ip address 127.0.0.1
       Port: 5432
       Database: postgres
       Username: postgres
