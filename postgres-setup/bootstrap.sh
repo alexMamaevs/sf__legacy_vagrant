@@ -11,7 +11,6 @@ then
   echo "VM was already provisioned at: $(cat $PROVISIONED_ON)"
   echo "To run system updates manually login via 'vagrant ssh' and run 'apt-get update && apt-get upgrade'"
   echo ""
-  print_db_usage
   exit
 fi
 
